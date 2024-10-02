@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Забранировать столик в ресторание "Берег моря"</title>
+<div class="p">
+    <p>Бронирование стола</p>
+</div>
+</head>
+<style>
+    p{text-align: center}
+    
+</style>
+<body>
+    <form action="/">
+        <div class="p">
+            <p>
+                <input type="text" name="Name" placeholder="ФИО">
+            </p>
+            <p>
+                <input type="email" name="Email" placeholder="Email">
+            </p>
+            <p>
+                <input type="tel" id="tel" name="tel" placeholder="8 XXX XXX XX XX" pattern="8 [0-9]{3} [0-9]{3} [0-9]{2} [0-9]{2}">
+            </p>
+            <p>Выберите дату бронирования:</p>
+            <p>     
+                <input type="datetime-local" name="calendar">
+            </p>
+
+            <p>    
+                    <button type="submit"> Забронированно </button>
+            </p>
+        </div>
+    </form>
+</body>    
+</html>
